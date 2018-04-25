@@ -28,7 +28,7 @@ Runs on the latest node.js (v7.8 or greater). Persistence is acheived using mong
 
 5. Run the container `docker run -p 3000:3000 --link tribeca-mongo:mongo --env-file ./env --name tribeca -d tribeca`. If you run `docker ps`, you should see tribeca and mongo containers running.
 
-### Manual Installation
+### Manual Installations
 
 1. Ensure your target machine has node v7.8 (or greater) and mongoDB v3 or greater. Also, ensure Typescript 2.2, grunt, and, optionally, forever are installed (`npm install -g grunt-cli typescript forever`).
 
